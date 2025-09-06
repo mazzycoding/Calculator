@@ -1,7 +1,7 @@
 const resultEl = document.getElementById("result");
 const historyEl = document.getElementById("history");
 let expression = "";
-
+//For button clicks
 document.querySelectorAll("button").forEach(btn => {
     btn.addEventListener("click",() => {
      const value = btn.textContent;
