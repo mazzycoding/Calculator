@@ -1,21 +1,31 @@
+<!--
+  Calculator UI
+  Provides the structure for the calculator display, buttons,
+  theme toggle, and background video.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="calculator">
+        <!-- Top bar with title and theme toggle -->
         <div class="top-bar">
             <span>Calculator</span>
             <button class="theme-toggle">🌙</button>
         </div>
+
+     <!-- Display area: history and current result -->
        <div class="display">
         <div id="history"></div>
         <div id="result">0</div>
        </div>
+
+       <!-- Calculator buttons grid -->
        <div class="buttons">
         <button>c</button>
         <button>±</button>
@@ -38,6 +48,8 @@
         <button>=</button>
        </div> 
     </div>
+
+    <!-- Background looping video -->
     <video autoplay muted loop id="myVideo">
   <source src="../Calculator/bgv.mp4" type="video/mp4">
 </video>
