@@ -14,15 +14,6 @@ Built as part of the [Odin Project](https://www.theodinproject.com/) curriculum,
 - **CSS3** – Styling and layout, including flexbox/grid.
 - **JavaScript (ES6)** – Handles user input, events, and calculations.
 
-## 📂 Project Structure
-calculator/
-│── index.html # Structure of the calculator UI
-│── style.css # Styling and layout
-│── script.js # Calculator logic and interactivity
-│── README.md # Project documentation
-
-
-
 ## ⚡ Getting Started
 ### 1. Clone the Repository
 ```bash
